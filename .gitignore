@@ -1,0 +1,14 @@
+# Ignore everything by default
+*
+
+# Only allow required submission files
+!.gitignore
+!/README.md
+!/requirements.txt
+!/REVIEW.md
+!/DECISIONS.md
+
+# Allow the app folder
+!/app/
+!/app/main.py
+!/app/__init__.py
