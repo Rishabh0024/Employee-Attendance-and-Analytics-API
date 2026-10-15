@@ -1,14 +1,16 @@
-# Ignore everything by default
+# Ignore local and generated files by default
 *
-
-# Only allow required submission files
 !.gitignore
 !/README.md
 !/requirements.txt
 !/REVIEW.md
 !/DECISIONS.md
-
-# Allow the app folder
+!/ARCHITECTURAL_DESIGN_DECISIONS.md
 !/app/
 !/app/main.py
 !/app/__init__.py
+!/tests/
+!/tests/**
+# Keep Python cache files out of the submission
+tests/**/__pycache__/
+tests/**/*.pyc
